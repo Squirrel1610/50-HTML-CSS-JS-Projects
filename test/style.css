@@ -1,0 +1,11 @@
+#test {
+    width: 0;
+    height: 0;
+    border: 50px solid;
+    border-color: red green blue yellow;
+    transition: transform 3s ease-in-out;
+}
+
+#test:hover {
+    transform: rotate(360deg);
+}
